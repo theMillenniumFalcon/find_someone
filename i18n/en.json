@@ -1,0 +1,147 @@
+{
+    "imprint": "Imprint",
+    "tos": "Terms of Service",
+    "privacy-policy": "Privacy Policy",
+    "auth": {
+        "email": "Sign in",
+        "google": "Sign in with Google",
+        "facebook": "Sign in with Facebook"
+    },
+    "first-name": "First name",
+    "dob": "Date of birth",
+    "link": "Link",
+    "optional": "Optional",
+    "register": {
+        "title": "Register",
+        "subtitle": "Create a new account",
+        "tos-agree": "I agree to the Terms of Service",
+        "privacy-agree": "I agree to the Privacy Policy",
+        "referral-code": "Referral code",
+        "asterisk-warning": "Fields with an asterisk (*) cannot be changed in the future"
+    },
+    "gender": {
+        "title": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+    },
+    "profile": {
+        "onboarding": {
+            "profile-picture": "I look like this",
+            "description": "Something about myself",
+            "description-placeholder": "I really love ice cream!",
+            "interests": "I really like these things...",
+            "match": {
+                "title": "Start getting likes!",
+                "subtitle": "Messages can only be sent after a match"
+            },
+            "submit": "Let's go!"
+        },
+        "intention": {
+            "title": "I want...",
+            "meet": "to meet new people",
+            "date": "a relationship",
+            "sex": "sexual intimacy",
+            "warning": "Can only be changed again after 24 hours"
+        },
+        "gender": "Looking for...",
+        "interest-alert": {
+            "title": "Remove interest?",
+            "subtitle": "Remove interest '%s' ?"
+        },
+        "units": {
+            "title": "Units",
+            "si": "SI",
+            "imperial": "Imperial"
+        },
+        "age": {
+            "min": "Minimum Age",
+            "max": "Maximum Age"
+        },
+        "misc-info": {
+            "drugs": {
+                "title": "Drugs",
+                "alcohol": "Alcohol",
+                "tobacco": "Tobacco",
+                "cannabis": "Cannabis",
+                "other": "Other drugs"
+            },
+            "kids": {
+                "title": "Kids",
+                "no": "No kids",
+                "yes": "Has kids"
+            },
+            "relationship": {
+                "title": "Relationship status",
+                "single": "Single",
+                "taken": "In a relationship",
+                "open": "Open relationship",
+                "other": "It's complicated"
+            }
+        },
+        "intention-toast": "Intention changed. You cannot change it for another 24 hours.",
+        "preferred-age-range": "Preferred age range",
+        "donated": "Donated",
+        "block": "Block",
+        "unblock": "Unblock",
+        "delete-account": "Delete account",
+        "delete-account-success": "Success! Please follow the instructions in the email we sent you.",
+        "download-userdata": "Download user data",
+        "download-userdata-success": "User data downloaded!",
+        "details": "Details",
+        "photos": {
+            "manage": "Manage photos",
+            "delete": "Delete photo?",
+            "change-profile-pic": "Change profile picture"
+        },
+        "logout": "Logout",
+        "report": {
+            "title": "Report",
+            "subtitle": "Report user for violating the Terms of Service?"
+        }
+    },
+    "cancel": "Cancel",
+    "ok": "OK",
+    "navigation": {
+        "profile": "Profile",
+        "chat": "Chat",
+        "search": "Search",
+        "likes": "Likes",
+        "donate": "Donate"
+    },
+    "donate": {
+        "filter": {
+            "recent": "Recent",
+            "amount": "Amount"
+        }
+    },
+    "chat": {
+        "default": "You got a match! Tap here to send a message :)",
+        "placeholder": "Write a message..."
+    },
+    "you": "You",
+    "sort": "Sort",
+    "error": {
+        "generic": "An error occured. Please try again."
+    },
+    "email": "Email",
+    "password": "Password",
+    "captcha": {
+        "title": "Captcha",
+        "placeholder": "Type the text"
+    },
+    "register-email": "Sign up with email",
+    "register-email-success": "Thank you! To complete the sign up process, simply click on the link that we have sent you.",
+    "register-password-warning": "Your password needs to be at least 7 characters long and must contain characters and numbers.",
+    "password-forget": "Forgot password?",
+    "password-reset": "Reset password",
+    "password-reset-success": "Check your email for a message from us and follow the instructions on it to reset your password.",
+    "likes-empty": {
+        "title": "No likes quite yet",
+        "subtitle": "Don't worry, new users are joining every day. Adjusting your preferences in your profile may also lead to more likes"
+    },
+    "convo-empty": {
+        "title": "Start chatting by getting matches",
+        "subtitle": "Get more matches by uploading attractive pictures and filling out your profile"
+    }
+}

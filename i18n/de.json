@@ -1,0 +1,147 @@
+{
+    "imprint": "Impressum",
+    "tos": "Nutzungsbedingungen",
+    "privacy-policy": "Datenschutzerklärung",
+    "auth": {
+        "email": "Anmelden",
+        "google": "Mit Google anmelden",
+        "facebook": "Mit Facebook anmelden"
+    },
+    "link": "Link",
+    "first-name": "Vorname",
+    "dob": "Geburtsdatum",
+    "optional": "Optional",
+    "register": {
+        "title": "Registrieren",
+        "subtitle": "Neues Konto erstellen",
+        "tos-agree": "Ich stimme den Nutzungsbedingungen zu",
+        "privacy-agree": "Ich stimme der Datenschutzerklärung zu",
+        "referral-code": "Empfehlungscode",
+        "asterisk-warning": "Felder mit einem Sternchen (*) können in Zukunft nicht mehr geändert werden"
+    },
+    "gender": {
+        "title": "Geschlecht",
+        "male": "Mann",
+        "female": "Frau",
+        "other": "Divers"
+    },
+    "profile": {
+        "onboarding": {
+            "profile-picture": "So sehe ich aus",
+            "description": "Etwas über mich",
+            "description-placeholder": "Ich liebe Eiscreme!",
+            "interests": "Ich mag diese Dinge wirklich gerne...",
+            "intention-warning": "Kann erst nach 24 Stunden wieder geändert werden",
+            "match": {
+                "title": "Jetzt Likes erhalten!",
+                "subtitle": "Nachrichten können nur nach einem Match gesendet werden"
+            },
+            "submit": "Los geht's!"
+        },
+        "intention": {
+            "title": "I möchte...",
+            "meet": "neue Leute kennenlernen",
+            "date": "eine romantische Beziehung",
+            "sex": "sexuelle Intimität",
+            "warning": "Kann erst nach 24 Stunden wieder geändert werden"
+        },
+        "gender": "Ich suche nach...",
+        "interest-alert": {
+            "title": "Interesse entfernen?",
+            "subtitle": "Interesse '%s' entfernen?"
+        },
+        "units": {
+            "title": "Einheiten",
+            "si": "SI",
+            "imperial": "Imperial"
+        },
+        "age": {
+            "min": "Min. Alter",
+            "max": "Max. Alter"
+        },
+        "misc-info": {
+            "drugs": {
+                "title": "Drogen",
+                "alcohol": "Alkohol",
+                "tobacco": "Tabak",
+                "cannabis": "Cannabis",
+                "other": "Andere Drogen"
+            },
+            "kids": {
+                "title": "Kinder",
+                "no": "Keine Kinder",
+                "yes": "Hat Kinder"
+            },
+            "relationship": {
+                "title": "Beziehungsstatus",
+                "single": "Single",
+                "taken": "In einer Beziehung",
+                "open": "Offene Beziehung",
+                "other": "Es ist kompliziert"
+            }
+        },
+        "intention-toast": "Intention geändert. Du kannst dies in 24h wieder ändern.",
+        "preferred-age-range": "Bevorzugte Altersspanne",
+        "donated": "Gespendet",
+        "block": "Blocken",
+        "unblock": "Entblocken",
+        "delete-account": "Account löschen",
+        "delete-account-success": "Erfolg! Bitte folge den Anweisungen in der E-Mail die wir Dir geschickt haben.",
+        "download-userdata": "Nutzerdaten herunterladen",
+        "download-userdata-success": "Nutzerdaten erfolgreich herunterladen",
+        "photos": {
+            "manage": "Fotos verwalten",
+            "delete": "Foto löschen?",
+            "change-profile-pic": "Profilbild ändern"
+        },
+        "logout": "Ausloggen",
+        "report": {
+            "title": "Melden",
+            "subtitle": "Nutzer wegen Verstoßes gegen die Nutzungsbedingungen melden?"
+        }
+    },
+    "cancel": "Abbrechen",
+    "ok": "OK",
+    "navigation": {
+        "profile": "Profil",
+        "chat": "Chat",
+        "search": "Suchen",
+        "likes": "Likes",
+        "donate": "Spenden"
+    },
+    "donate": {
+        "filter": {
+            "recent": "Neueste",
+            "amount": "Höhe"
+        }
+    },
+    "chat": {
+        "default": "Ein Match! Jemand mag dich zurück! Tippe hier, um eine Nachricht zu senden :)",
+        "placeholder": "Schreib eine Nachricht..."
+    },
+    "you": "Du",
+    "sort": "Sort.",
+    "error": {
+        "generic": "Ein Fehler ist aufgetreten. Bitte versuche es noch einmal."
+    },
+    "email": "E-mail",
+    "password": "Passwort",
+    "captcha": {
+        "title": "Captcha",
+        "placeholder": "Gib den Text ein"
+    },
+    "register-email": "Mit E-mail registrieren",
+    "register-email-success": "Vielen Dank! Um den Registriervorgang abzuschließen, klicke einfach auf den Link, den wir Dir per E-mail geschickt haben.",
+    "register-password-warning": "Das Passwort muss mindestens 7 Zeichen lang sein und Zeichen und Zahlen enthalten.",
+    "password-forget": "Password vergessen?",
+    "password-reset": "Password zurücksetzen",
+    "password-reset-success": "Schaue in Deiner E-Mail Postface nach, ob Du eine Nachricht von uns erhalten hast, und befolge die darin enthaltenen Anweisungen, um Dein Passwort zurückzusetzen.",
+    "likes-empty": {
+        "title": "Noch keine Likes",
+        "subtitle": "Keine Sorge, es kommen jeden Tag neue Nutzer hinzu. Die Anpassung deiner Einstellungen in deinem Profil kann auch zu mehr Likes führen"
+    },
+    "convo-empty": {
+        "title": "Starte Chats mit Matches",
+        "subtitle": "Erhalte mehr Matches indem du attraktive Bilder hochlädst und dein Profil ausfüllst"
+    }
+}
