@@ -1,19 +1,18 @@
 import React from "react"
-import { Login, Register, Onboarding, Main, Profile, MessageDetail, PasswordReset } from "./screens"
 import * as SplashScreen from 'expo-splash-screen'
 import * as WebBrowser from 'expo-web-browser'
 import { NavigationContainer } from "@react-navigation/native"
-import * as Linking from 'expo-linking'
-import * as Global from "./Global"
 import { createStackNavigator } from "@react-navigation/stack"
-import * as I18N from "./i18n"
-import { Dimensions, LogBox, useColorScheme } from 'react-native'
+import { LogBox, useColorScheme } from 'react-native'
 import { RootSiblingParent } from 'react-native-root-siblings'
 import { MD3LightTheme, MD3DarkTheme, Provider as PaperProvider } from 'react-native-paper'
 import { DefaultTheme, DarkTheme } from '@react-navigation/native'
 import { StatusBar } from 'expo-status-bar'
-import { Photos } from "./screens/profile"
 import { ThemeProp } from "react-native-paper/lib/typescript/types"
+
+import { Login, Register, Onboarding, Main, Profile, MessageDetail, PasswordReset } from "./screens"
+import * as Global from "./Global"
+import { Photos } from "./screens/profile"
 
 LogBox.ignoreAllLogs()
 SplashScreen.preventAutoHideAsync()
@@ -27,7 +26,7 @@ const Stack = createStackNavigator()
 
 export default function App() {
 
-  Global.GetStorage(Global.STORAGE_PAGE).then((value) => {
+  Global.GetStorage(Global.STORAGE_PAGE).then((value: any) => {
     if (value && value != Global.INDEX_REGISTER) {
       Global.loadPage(value)
     }
