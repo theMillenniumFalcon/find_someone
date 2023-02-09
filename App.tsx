@@ -20,10 +20,6 @@ setTimeout(SplashScreen.hideAsync, 1000)
 WebBrowser.maybeCompleteAuthSession()
 const Stack = createStackNavigator()
 
-//TEST
-//const RCTNetworking = require('react-native/Libraries/Network/RCTNetworking')
-//RCTNetworking.clearCookies(() => { })
-
 export default function App() {
 
   Global.GetStorage(Global.STORAGE_PAGE).then((value: any) => {
