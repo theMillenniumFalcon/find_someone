@@ -1,0 +1,147 @@
+{
+    "imprint": "Imprint",
+    "tos": "सेवा की शर्तें",
+    "privacy-policy": "प्राइवेसी पॉलिसी",
+    "auth": {
+        "email": "साइन-इन",
+        "google": "गूगल से साइन-इन करें",
+        "facebook": "फेसबुक से साइन-इन करें"
+    },
+    "first-name": "पहला नाम",
+    "dob": "जन्म की तारीख",
+    "link": "लिंक",
+    "optional": "ऑप्शनल",
+    "register": {
+        "title": "रजिस्टर",
+        "subtitle": "नया अकाउंट बनाएं",
+        "tos-agree": "मैं सेवा की शर्तों से सहमत हूं",
+        "privacy-agree": "मैं प्राइवेसी पॉलिसी से सहमत हूँ",
+        "referral-code": "रेफरल कोड",
+        "asterisk-warning": "तारांकन (*) के साथ चिह्नित फ़ील्ड अनिवार्य हैं"
+    },
+    "gender": {
+        "title": "लिंग",
+        "male": "पुरुष",
+        "female": "महिला",
+        "other": "अन्य"
+    },
+    "profile": {
+        "onboarding": {
+            "profile-picture": "मैं ऐसा दिखता हूं",
+            "description": "मेरे बारे में कुछ",
+            "description-placeholder": "मुझे आइसक्रीम बहुत पसंद है!",
+            "interests": "मुझे ये चीजें पसंद हैं...",
+            "match": {
+                "title": "लाइक मिलना शुरू करें!",
+                "subtitle": "मैच के बाद ही मैसेज भेजे जा सकते हैं"
+            },
+            "submit": "चलिए शुरू करते हैं!"
+        },
+        "intention": {
+            "title": "मुझे...",
+            "meet": "नए लोगों से मिलना है",
+            "date": "एक रिलेशनशिप चाहिए",
+            "sex": "sexual intimacy",
+            "warning": "24 घंटे के बाद ही दोबारा बदला जा सकता है"
+        },
+        "gender": "ढूंढ रहा हूँ...",
+        "interest-alert": {
+            "title": "Remove interest?",
+            "subtitle": "Remove interest '%s' ?"
+        },
+        "units": {
+            "title": "Units",
+            "si": "SI",
+            "imperial": "Imperial"
+        },
+        "age": {
+            "min": "न्यूनतम आयु",
+            "max": "अधिकतम आयु"
+        },
+        "misc-info": {
+            "drugs": {
+                "title": "ड्रग्स",
+                "alcohol": "अल्कोहल",
+                "tobacco": "तंबाकू",
+                "cannabis": "कैनबिस",
+                "other": "अन्य ड्रग्स"
+            },
+            "kids": {
+                "title": "संतान",
+                "no": "संतान नहीं हैं",
+                "yes": "संतान हैं"
+            },
+            "relationship": {
+                "title": "रिश्ते की स्थिति",
+                "single": "Single",
+                "taken": "रिश्ते में हूं",
+                "open": "खुले रिश्ते में हूं",
+                "other": "जटिल रिश्ते में हूं"
+            }
+        },
+        "intention-toast": "Intention changed. You cannot change it for another 24 hours.",
+        "preferred-age-range": "Preferred age range",
+        "donated": "Donated",
+        "block": "Block",
+        "unblock": "Unblock",
+        "delete-account": "Delete account",
+        "delete-account-success": "Success! Please follow the instructions in the email we sent you.",
+        "download-userdata": "Download user data",
+        "download-userdata-success": "User data downloaded!",
+        "details": "Details",
+        "photos": {
+            "manage": "Manage photos",
+            "delete": "Delete photo?",
+            "change-profile-pic": "Change profile picture"
+        },
+        "logout": "Logout",
+        "report": {
+            "title": "Report",
+            "subtitle": "Report user for violating the Terms of Service?"
+        }
+    },
+    "cancel": "Cancel",
+    "ok": "OK",
+    "navigation": {
+        "profile": "Profile",
+        "chat": "Chat",
+        "search": "Search",
+        "likes": "Likes",
+        "donate": "Donate"
+    },
+    "donate": {
+        "filter": {
+            "recent": "Recent",
+            "amount": "Amount"
+        }
+    },
+    "chat": {
+        "default": "You got a match! Tap here to send a message :)",
+        "placeholder": "Write a message..."
+    },
+    "you": "You",
+    "sort": "Sort",
+    "error": {
+        "generic": "An error occured. Please try again."
+    },
+    "email": "Email",
+    "password": "Password",
+    "captcha": {
+        "title": "Captcha",
+        "placeholder": "Type the text"
+    },
+    "register-email": "Sign up with email",
+    "register-email-success": "Thank you! To complete the sign up process, simply click on the link that we have sent you.",
+    "register-password-warning": "Your password needs to be at least 7 characters long and must contain characters and numbers.",
+    "password-forget": "Forgot password?",
+    "password-reset": "Reset password",
+    "password-reset-success": "Check your email for a message from us and follow the instructions on it to reset your password.",
+    "likes-empty": {
+        "title": "No likes quite yet",
+        "subtitle": "Don't worry, new users are joining every day. Adjusting your preferences in your profile may also lead to more likes"
+    },
+    "convo-empty": {
+        "title": "Start chatting by getting matches",
+        "subtitle": "Get more matches by uploading attractive pictures and filling out your profile"
+    }
+}

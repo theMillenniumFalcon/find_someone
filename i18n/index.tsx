@@ -1,11 +1,13 @@
 import * as Localization from 'expo-localization'
 import { I18n } from 'i18n-js'
 import en from './en.json'
-import de from './de.json'
+import ge from './ge.json'
+import hi from './hi.json'
 
 export const translations = {
     en: en,
-    de: de,
+    ge: ge,
+    hi: hi
 }
 
 export function getI18n(): I18n {
