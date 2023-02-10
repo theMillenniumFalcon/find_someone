@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useRef, useEffect } from "react"
 import { useTheme, Text, Button, TextInput, Switch, RadioButton } from "react-native-paper"
 import { View, ScrollView, StyleSheet } from "react-native"
 import * as WebBrowser from 'expo-web-browser'
@@ -24,19 +24,19 @@ function subtractYears(years: number): Date {
 const Register = ({ route, navigation }: any) => {
     const registerEmail = route.params?.registerEmail
     const { colors } = useTheme()
-    const scrollRef = React.useRef(null)
+    const scrollRef = useRef(null)
 
-    const [isDatePickerVisible, setDatePickerVisibility] = React.useState(false)
-    const [email, setEmail] = React.useState("")
-    const [emailValid, setEmailValid] = React.useState(false)
-    const [password, setPassword] = React.useState("")
-    const [passwordSecure, setPasswordSecure] = React.useState(false)
-    const [firstName, setFirstName] = React.useState("")
-    const [dob, setDob] = React.useState(subtractYears(DEFAULT_AGE))
-    const [gender, setGender] = React.useState("1")
-    const [isTosEnabled, setIsTosEnabled] = React.useState(false)
-    const [isPrivacyEnabled, setIsPrivacyEnabled] = React.useState(false)
-    const [referrerCode, setReferrerCode] = React.useState("")
+    const [isDatePickerVisible, setDatePickerVisibility] = useState(false)
+    const [email, setEmail] = useState("")
+    const [emailValid, setEmailValid] = useState(false)
+    const [password, setPassword] = useState("")
+    const [passwordSecure, setPasswordSecure] = useState(false)
+    const [firstName, setFirstName] = useState("")
+    const [dob, setDob] = useState(subtractYears(DEFAULT_AGE))
+    const [gender, setGender] = useState("1")
+    const [isTosEnabled, setIsTosEnabled] = useState(false)
+    const [isPrivacyEnabled, setIsPrivacyEnabled] = useState(false)
+    const [referrerCode, setReferrerCode] = useState("")
 
     const minDate = subtractYears(MAX_AGE)
     const maxDate = subtractYears(MIN_AGE)
@@ -46,7 +46,7 @@ const Register = ({ route, navigation }: any) => {
         setFirstName(name ? String(name) : "")
     }
 
-    React.useEffect(() => {
+    useEffect(() => {
         load()
         navigation.setOptions({
             title: ''
@@ -96,7 +96,8 @@ const Register = ({ route, navigation }: any) => {
 
 
         } else {
-            scrollRef?.current?.scrollTo({ x: 0, y: 0, animated: true })
+            // scrollRef?.current?.scrollTo({ x: 0, y: 0, animated: true })
+            window.scrollTo({ x: 0, y: 0, animated: true } as any)
         }
     }
 
