@@ -1,5 +1,5 @@
 {
-    "imprint": "Imprint",
+    "imprint": "इम्प्रिन्ट",
     "tos": "सेवा की शर्तें",
     "privacy-policy": "प्राइवेसी पॉलिसी",
     "auth": {
@@ -41,18 +41,18 @@
             "title": "मुझे...",
             "meet": "नए लोगों से मिलना है",
             "date": "एक रिलेशनशिप चाहिए",
-            "sex": "sexual intimacy",
+            "sex": "यौन इंटिमेसी",
             "warning": "24 घंटे के बाद ही दोबारा बदला जा सकता है"
         },
         "gender": "ढूंढ रहा हूँ...",
         "interest-alert": {
-            "title": "Remove interest?",
-            "subtitle": "Remove interest '%s' ?"
+            "title": "दिलचस्पी हटाएं?",
+            "subtitle": "दिलचस्पी हटाएं '%s' ?"
         },
         "units": {
-            "title": "Units",
-            "si": "SI",
-            "imperial": "Imperial"
+            "title": "मात्रक",
+            "si": "एस आई",
+            "imperial": "इम्पिरीअल"
         },
         "age": {
             "min": "न्यूनतम आयु",
@@ -73,75 +73,75 @@
             },
             "relationship": {
                 "title": "रिश्ते की स्थिति",
-                "single": "Single",
+                "single": "अकेला हूं",
                 "taken": "रिश्ते में हूं",
                 "open": "खुले रिश्ते में हूं",
                 "other": "जटिल रिश्ते में हूं"
             }
         },
-        "intention-toast": "Intention changed. You cannot change it for another 24 hours.",
-        "preferred-age-range": "Preferred age range",
-        "donated": "Donated",
-        "block": "Block",
-        "unblock": "Unblock",
-        "delete-account": "Delete account",
-        "delete-account-success": "Success! Please follow the instructions in the email we sent you.",
-        "download-userdata": "Download user data",
-        "download-userdata-success": "User data downloaded!",
-        "details": "Details",
+        "intention-toast": "इरादा बदल गया। आप इसे अगले 24 घंटों के लिए नहीं बदल सकते।",
+        "preferred-age-range": "पसंदीदा आयु सीमा",
+        "donated": "दान",
+        "block": "ब्लॉक",
+        "unblock": "अनब्लॉक",
+        "delete-account": "अकाउंट हटा दो",
+        "delete-account-success": "सफलता! कृपया हमारे द्वारा आपको भेजे गए ईमेल में दिए गए निर्देशों का पालन करें।",
+        "download-userdata": "उपयोगकर्ता डेटा डाउनलोड करें",
+        "download-userdata-success": "उपयोगकर्ता डेटा डाउनलोड किया गया!",
+        "details": "विवरण",
         "photos": {
-            "manage": "Manage photos",
-            "delete": "Delete photo?",
-            "change-profile-pic": "Change profile picture"
+            "manage": "तस्वीरें प्रबंधित करें",
+            "delete": "फोटो हटाएं?",
+            "change-profile-pic": "प्रोफ़ाइल तस्वीर बदलें"
         },
-        "logout": "Logout",
+        "logout": "लॉग आउट",
         "report": {
-            "title": "Report",
-            "subtitle": "Report user for violating the Terms of Service?"
+            "title": "रिपोर्ट",
+            "subtitle": "सेवा की शर्तों का उल्लंघन करने के लिए उपयोगकर्ता की रिपोर्ट करें?"
         }
     },
-    "cancel": "Cancel",
-    "ok": "OK",
+    "cancel": "कैंसिल",
+    "ok": "ओके",
     "navigation": {
-        "profile": "Profile",
-        "chat": "Chat",
-        "search": "Search",
-        "likes": "Likes",
-        "donate": "Donate"
+        "profile": "प्रोफ़ाइल",
+        "chat": "चैट",
+        "search": "खोज",
+        "likes": "लाइक्स",
+        "donate": "डोनेट"
     },
     "donate": {
         "filter": {
-            "recent": "Recent",
-            "amount": "Amount"
+            "recent": "हाल का",
+            "amount": "राशि"
         }
     },
     "chat": {
-        "default": "You got a match! Tap here to send a message :)",
-        "placeholder": "Write a message..."
+        "default": "आपको एक मैच मिला! संदेश भेजने के लिए यहां टैप करें :)",
+        "placeholder": "एक सन्देश लिखिए..."
     },
-    "you": "You",
-    "sort": "Sort",
+    "you": "आप",
+    "sort": "क्रम से लगाओ",
     "error": {
-        "generic": "An error occured. Please try again."
+        "generic": "एक त्रुटि हुई। कृपया पुन: प्रयास करें।"
     },
-    "email": "Email",
-    "password": "Password",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
     "captcha": {
-        "title": "Captcha",
-        "placeholder": "Type the text"
+        "title": "कैप्चा",
+        "placeholder": "टाइप करें"
     },
-    "register-email": "Sign up with email",
-    "register-email-success": "Thank you! To complete the sign up process, simply click on the link that we have sent you.",
-    "register-password-warning": "Your password needs to be at least 7 characters long and must contain characters and numbers.",
-    "password-forget": "Forgot password?",
-    "password-reset": "Reset password",
-    "password-reset-success": "Check your email for a message from us and follow the instructions on it to reset your password.",
+    "register-email": "ईमेल से साइन-अप करें",
+    "register-email-success": "धन्यवाद! साइन-अप प्रक्रिया को पूरा करने के लिए, बस उस लिंक पर क्लिक करें जो हमने आपको भेजा है।",
+    "register-password-warning": "आपका पासवर्ड कम से कम 7 वर्णों का होना चाहिए और इसमें वर्ण और संख्याएँ होनी चाहिए।",
+    "password-forget": "पासवर्ड भूल गए?",
+    "password-reset": "रीसेट पासवर्ड",
+    "password-reset-success": "हमारे संदेश के लिए अपना ईमेल देखें और अपना पासवर्ड रीसेट करने के लिए उस पर दिए गए निर्देशों का पालन करें।",
     "likes-empty": {
-        "title": "No likes quite yet",
-        "subtitle": "Don't worry, new users are joining every day. Adjusting your preferences in your profile may also lead to more likes"
+        "title": "अभी तक कोई लाइक नहीं है",
+        "subtitle": "चिंता न करें, हर दिन नए यूजर जुड़ रहे हैं। अपनी प्रोफ़ाइल में अपनी प्राथमिकताओं को एडजस्ट करने से भी अधिक लाइक प्राप्त हो सकते हैं।"
     },
     "convo-empty": {
-        "title": "Start chatting by getting matches",
-        "subtitle": "Get more matches by uploading attractive pictures and filling out your profile"
+        "title": "मैच करें चाट करना शुरू करें",
+        "subtitle": "आकर्षक तस्वीरें अपलोड करके और अपना प्रोफ़ाइल भरकर अधिक मैच प्राप्त करें"
     }
 }
