@@ -43,6 +43,7 @@
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
     "react-native-autocomplete-dropdown": "^2.1.0",
+    "react-native-card-stack-swiper": "^1.2.5",
     "react-native-file-access": "^2.5.2",
     "react-native-gesture-handler": "^2.9.0",
     "react-native-modal-datetime-picker": "^14.0.1",
