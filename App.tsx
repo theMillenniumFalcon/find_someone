@@ -10,9 +10,8 @@ import { DefaultTheme, DarkTheme } from '@react-navigation/native'
 import { StatusBar } from 'expo-status-bar'
 import { ThemeProp } from "react-native-paper/lib/typescript/types"
 
-import { Login, Register, Onboarding, Main, Profile, MessageDetail, PasswordReset } from "./screens"
+import { Login, Register, Onboarding, Main, Profile, Photos, MessageDetail, PasswordReset } from "./screens"
 import * as Global from "./utils/Global"
-import { Photos } from "./screens/profile"
 
 LogBox.ignoreAllLogs()
 SplashScreen.preventAutoHideAsync()

@@ -27,7 +27,6 @@ const PasswordReset = ({ route, navigation }: any) => {
     const [captchaImage, setCaptchaImage] = React.useState("")
     const [captchaText, setCaptchaText] = React.useState("")
 
-    //vars for dialog
     const [visible, setVisible] = React.useState(false)
     const showDialog = () => setVisible(true)
     const hideDialog = () => setVisible(false)

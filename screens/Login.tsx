@@ -17,9 +17,7 @@ const IMAGE_HEADER = "data:image/webpbase64,"
 
 WebBrowser.maybeCompleteAuthSession()
 
-
 const Login = () => {
-
     const { colors } = useTheme()
 
     const [email, setEmail] = React.useState("")
@@ -29,7 +27,6 @@ const Login = () => {
     const [captchaImage, setCaptchaImage] = React.useState("")
     const [captchaText, setCaptchaText] = React.useState("")
 
-    //vars for dialog
     const [visible, setVisible] = React.useState(false)
     const showDialog = () => setVisible(true)
     const hideDialog = () => setVisible(false)
