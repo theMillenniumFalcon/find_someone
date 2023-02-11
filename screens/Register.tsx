@@ -24,7 +24,7 @@ function subtractYears(years: number): Date {
 const Register = ({ route, navigation }: any) => {
     const registerEmail = route.params?.registerEmail
     const { colors } = useTheme()
-    const scrollRef = useRef(null)
+    const scrollRef = useRef(null) as any
 
     const [isDatePickerVisible, setDatePickerVisibility] = useState(false)
     const [email, setEmail] = useState("")
@@ -96,8 +96,7 @@ const Register = ({ route, navigation }: any) => {
 
 
         } else {
-            // scrollRef?.current?.scrollTo({ x: 0, y: 0, animated: true })
-            window.scrollTo({ x: 0, y: 0, animated: true } as any)
+            scrollRef?.current?.scrollTo({ x: 0, y: 0, animated: true })
         }
     }
 
