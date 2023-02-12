@@ -112,7 +112,7 @@ const Login = () => {
             <View style={{ height: Dimensions.get("window").height }}>
                 <Image resizeMode='contain' style={{ height: 200, width: '100%', marginTop: 8 }} source={require('../assets/splash.png')} />
 
-                <Text style={{ textAlign: 'center', marginBottom: 48, fontSize: 32, fontWeight: '500' }}>Cupid</Text>
+                <Text style={{ textAlign: 'center', marginBottom: 48, fontSize: 32, fontWeight: '500' }}>Find someone</Text>
 
                 <TextInput
                     style={{ backgroundColor: colors.background }}
