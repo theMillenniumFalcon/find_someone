@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { View, TouchableOpacity, FlatList, Pressable, Image, Alert, Platform } from "react-native"
 import * as ImagePicker from 'expo-image-picker'
 import * as ImageManipulator from 'expo-image-manipulator'
@@ -21,9 +21,9 @@ const Photos = ({ route, navigation }: any) => {
     const IMAGE_HEADER_JPEG = "data:image/jpegbase64,"
     const IMG_SIZE_MAX = 600
 
-    const [profilePic, setProfilePic] = React.useState("")
-    const [images, setImages] = React.useState(Array<UserImage>)
-    const [changedProfilPic, setChangedProfilePic] = React.useState(false)
+    const [profilePic, setProfilePic] = useState("")
+    const [images, setImages] = useState(Array<UserImage>)
+    const [changedProfilPic, setChangedProfilePic] = useState(false)
 
     async function load() {
         let response = await Global.Fetch(URL.API_RESOURCE_YOUR_PROFILE)
@@ -33,7 +33,7 @@ const Photos = ({ route, navigation }: any) => {
         setProfilePic(dto.profilePicture)
     }
 
-    React.useEffect(() => {
+    useEffect(() => {
         navigation.setOptions({
             title: i18n.t('profile.photos.manage')
         })
